@@ -134,6 +134,7 @@ Sender.prototype.loadMedia = function() {
 
   var streamRequest = {};
   streamRequest.assetKey = Sender.SAMPLE_ASSET_KEY;
+  streamRequest.apiKey = '62nhd198bn1sr3quqisbi8jp19';
   streamRequest.attemptPreroll = false;
   streamRequest.adTagParameters = Sender.SAMPLE_AD_TAG_PARAMS;
   var mediaInfo = new chrome.cast.media.MediaInfo(streamRequest.assetKey);
